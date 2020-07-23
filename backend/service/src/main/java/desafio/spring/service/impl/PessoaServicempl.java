@@ -14,11 +14,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
-import desafio.spring.persistence.dao.PessoaDAO;
-import desafio.spring.persistence.dto.base.MessageApiDTO;
-import desafio.spring.persistence.dto.base.PaginationDTO;
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
-import desafio.spring.persistence.model.Pessoa;
+import desafio.spring.dto.base.MessageApiDTO;
+import desafio.spring.dto.base.PaginationDTO;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.persistence.PessoaDAO;
+import desafio.spring.persistence.jpa.model.Pessoa;
 import desafio.spring.service.PessoaService;
 import desafio.spring.service.exception.BusinessException;
 import desafio.spring.service.util.ResponseUtil;

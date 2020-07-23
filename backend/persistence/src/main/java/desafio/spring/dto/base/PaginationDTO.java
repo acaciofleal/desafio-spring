@@ -1,4 +1,4 @@
-package desafio.spring.persistence.dto.base;
+package desafio.spring.dto.base;
 
 import java.io.Serializable;
 import java.util.List;

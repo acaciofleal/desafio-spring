@@ -1,18 +1,26 @@
-package desafio.spring.persistence.model;
+package desafio.spring.persistence.jpa.model;
 
 import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
 /**
  * 
  * @author acacio.leal
  *
  */
+@Entity
+@SequenceGenerator(name="seq_pessoa", sequenceName="seq_pessoa", allocationSize = 1)
+@Table(schema = "public", name="pessoa")
+@NamedQuery(name="Pessoa.findAll", query="SELECT p FROM Pessoa p")
 public class Pessoa implements Serializable {
 
 	/**

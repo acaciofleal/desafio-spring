@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import desafio.spring.persistence.dto.base.MessageApiDTO;
-import desafio.spring.persistence.dto.base.PaginationDTO;
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.dto.base.MessageApiDTO;
+import desafio.spring.dto.base.PaginationDTO;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
 import desafio.spring.service.PessoaService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -33,6 +33,7 @@ import io.swagger.annotations.ApiResponses;
 @RequestMapping("pessoa")
 @CrossOrigin
 public class PessoaController {
+	
 	@Autowired
 	private PessoaService service;
 	

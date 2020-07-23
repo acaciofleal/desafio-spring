@@ -2,7 +2,7 @@ package desafio.spring.service.util;
 
 import org.springframework.http.HttpStatus;
 
-import desafio.spring.persistence.dto.base.MessageApiDTO;
+import desafio.spring.dto.base.MessageApiDTO;
 
 /**
  * @author acacio.leal

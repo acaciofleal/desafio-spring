@@ -1,6 +1,6 @@
-package desafio.spring.persistence.dto.pessoa;
+package desafio.spring.dto.pessoa;
 
-import desafio.spring.persistence.dto.base.PaginationFilterDTO;
+import desafio.spring.dto.base.PaginationFilterDTO;
 
 /**
  * 

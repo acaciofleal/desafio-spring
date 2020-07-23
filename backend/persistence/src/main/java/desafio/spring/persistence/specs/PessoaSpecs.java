@@ -10,8 +10,8 @@ import javax.persistence.criteria.Root;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
-import desafio.spring.persistence.model.Pessoa;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.persistence.jpa.model.Pessoa;
 
 /**
  * 

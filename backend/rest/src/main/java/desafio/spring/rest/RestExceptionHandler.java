@@ -10,7 +10,7 @@ import org.springframework.validation.BindException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import desafio.spring.persistence.dto.base.MessageApiDTO;
+import desafio.spring.dto.base.MessageApiDTO;
 import desafio.spring.service.exception.BusinessException;
 
 /**

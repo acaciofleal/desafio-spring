@@ -1,4 +1,4 @@
-package desafio.spring.persistence.dto.base;
+package desafio.spring.dto.base;
 
 import static desafio.spring.persistence.constants.Constants.DEFAULT_NUMBER_PAGE;
 import static desafio.spring.persistence.constants.Constants.DEFAULT_ORDER;

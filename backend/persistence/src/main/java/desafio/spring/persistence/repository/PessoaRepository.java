@@ -5,8 +5,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.CrudRepository;
 
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
-import desafio.spring.persistence.model.Pessoa;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.persistence.jpa.model.Pessoa;
 import desafio.spring.persistence.specs.PessoaSpecs;
 
 /**

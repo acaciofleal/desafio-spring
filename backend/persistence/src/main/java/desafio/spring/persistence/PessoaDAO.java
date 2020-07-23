@@ -1,12 +1,12 @@
-package desafio.spring.persistence.dao;
+package desafio.spring.persistence;
 
 import java.util.Optional;
 import java.util.Set;
 
 import org.springframework.data.domain.Page;
 
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
-import desafio.spring.persistence.model.Pessoa;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.persistence.jpa.model.Pessoa;
 
 /**
  * 

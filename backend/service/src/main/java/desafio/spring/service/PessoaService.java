@@ -2,9 +2,9 @@ package desafio.spring.service;
 
 import java.util.Set;
 
-import desafio.spring.persistence.dto.base.MessageApiDTO;
-import desafio.spring.persistence.dto.base.PaginationDTO;
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.dto.base.MessageApiDTO;
+import desafio.spring.dto.base.PaginationDTO;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
 
 /**
  * 

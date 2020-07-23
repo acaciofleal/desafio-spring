@@ -1,4 +1,4 @@
-package desafio.spring.persistence.dao.impl;
+package desafio.spring.persistence.impl;
 
 import java.util.Optional;
 import java.util.Set;
@@ -8,10 +8,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
+import org.springframework.stereotype.Service;
 
-import desafio.spring.persistence.dao.PessoaDAO;
-import desafio.spring.persistence.dto.pessoa.SearchFilterPessoaDTO;
-import desafio.spring.persistence.model.Pessoa;
+import desafio.spring.dto.pessoa.SearchFilterPessoaDTO;
+import desafio.spring.persistence.PessoaDAO;
+import desafio.spring.persistence.jpa.model.Pessoa;
 import desafio.spring.persistence.repository.PessoaRepository;
 
 /**
@@ -20,6 +21,7 @@ import desafio.spring.persistence.repository.PessoaRepository;
  * Classe que implementa o DAO
  *
  */
+@Service
 public class PessoaDAOImpl implements PessoaDAO {
 
 	@Autowired
