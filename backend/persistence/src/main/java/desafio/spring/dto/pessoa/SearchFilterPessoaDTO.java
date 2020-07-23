@@ -1,5 +1,7 @@
 package desafio.spring.dto.pessoa;
 
+import java.util.Date;
+
 import desafio.spring.dto.base.PaginationFilterDTO;
 
 /**
@@ -18,6 +20,8 @@ public class SearchFilterPessoaDTO extends PaginationFilterDTO {
 	private String nome;
 	
 	private String cpf;
+	
+	private Date dataNascimento;
 
 	public String getNome() {
 		return nome;
@@ -33,6 +37,14 @@ public class SearchFilterPessoaDTO extends PaginationFilterDTO {
 
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 	
 	

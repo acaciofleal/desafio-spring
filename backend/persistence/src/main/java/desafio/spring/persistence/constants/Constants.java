@@ -9,7 +9,7 @@ public final class Constants {
 
 	}
 	
-	public static final String DEFAULT_ORDER = "DESC";
+	public static final String DEFAULT_ORDER = "ASC";
 	
 	public static final Integer DEFAULT_NUMBER_PAGE = 1;
 	
