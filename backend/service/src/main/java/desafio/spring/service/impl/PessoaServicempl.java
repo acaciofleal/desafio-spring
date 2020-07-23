@@ -81,7 +81,7 @@ public class PessoaServicempl implements PessoaService {
 	@Override
 	public MessageApiDTO putPessoa(Long id, SearchFilterPessoaDTO dto) {
 		if(!pessoaDAO.find(id).isPresent()) {
-			throw new BusinessException("CNES não encontrado com ID informado.");
+			throw new BusinessException("Pessoa não encontrado com ID informado.");
 		}
 		
 		Pessoa pessoa = convert(dto);
