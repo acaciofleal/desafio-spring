@@ -1,6 +1,6 @@
 package desafio.spring.persistence.constants;
 /**
- * @author ygor.satiro
+ * @author acacio.leal
  * Constantes default para os DTOs
  */
 public final class Constants {

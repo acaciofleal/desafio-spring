@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author ygor.satiro
+ * @author acacio.leal
  * Classe para inicialização do ModelMapper
  */
 @Configuration
