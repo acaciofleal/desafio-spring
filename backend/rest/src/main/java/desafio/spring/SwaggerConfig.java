@@ -33,7 +33,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 
 	private ApiInfo metaData() {
 		return new ApiInfoBuilder()
-				.title("Desafio Spring Reader - REST")
+				.title("Desafio Spring - REST")
 				.description("\"Spring Boot REST API to Desafio Spring\"")
 				.version("1.0.0")
 				.license("Apache License Version 2.0")
